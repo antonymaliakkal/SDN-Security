@@ -1,11 +1,6 @@
 
 # SDN Security - A Mininet Simulated Intrussion Detection System
 
-A brief description of what this project does and who it's for
-
-
-## Overview
-
 Software-Defined Networking (SDN) architectures introduce new security challenges, as the centralized control plane can become a prime target for attackers. To address these problems, this work presents an SDN-based Intrusion Detection System (IDS) that integrates a Long Short-Term Memory (LSTM) deep learning model to detect anomalous network activity in real-time. The LSTM model that is trained on the NSL-KDD dataset, is embedded directly into the SDN
 controller (POX), allowing all network traffic to be analyzed for unusual behavior. The proposed IDS solution is demonstrated and evaluated using the Mininet network emulator, which validates the effectiveness of this approach in accurately identifying intrusions within the SDN environment.
 
